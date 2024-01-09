@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>KIDBOI</title>
+</head>
+<body>
+  <main>
+    <div class="form-wrapper">
+      <form id="your-id" class="hidden">
+        <span>Hello, what's your name?</span>
+        <div id="input-wrap">
+          <input required maxlength="15" type="text" placeholder="what is your name">
+          <span></span>
+        </div>
+      </form>
+      <h2 id="clock"></h2>
+      <h1 id="greetings" class="hidden"></h1>
+    </div>
+    <div id="quote">
+      <span id="quotes"></span>
+      <span id="author"></span>
+    </div>
+  </main>
+  <div id="todo">
+    <div id="todo-wrap">
+      <ul>
+        <li>Add a todo to get started</li>
+        <button id="new-todo">New Todo</button>
+      </ul>
+      <form id="create-todo" class="hidden"></form>
+    </div>
+    <a id="todo-text"href="#">Todo</a>
+  </div>
+  <script src="./js/greetings.js"></script>
+  <script src="./js/background.js"></script>
+  <script src="./js/quotes.js"></script>
+  <script src="./js/clock.js"></script>
+  <script src="./js/todo.js"></script>
+  <script src="./js/createTodo.js"></script>
+</body>
+</html>
