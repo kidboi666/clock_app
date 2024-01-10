@@ -28,10 +28,13 @@
   <div id="todo">
     <div id="todo-wrap">
       <ul>
-        <li>Add a todo to get started</li>
+        <li id="todo-add-text">Add a todo to get started</li>
         <button id="new-todo">New Todo</button>
       </ul>
-      <form id="create-todo" class="hidden"></form>
+      <form id="create-todo" class="hidden">
+        <input id="todo-value" required maxlength="15" type="text" />
+      </form>
+      <ul id="todo-list"></ul>
     </div>
     <a id="todo-text"href="#">Todo</a>
   </div>
